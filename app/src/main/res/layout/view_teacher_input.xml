@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="io.codly.Uetface.controller.TeacherInput">
+
+    <EditText
+        android:id="@+id/ten_mon_hoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/register_edittext"
+        android:hint="Môn học"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#222222"
+        android:textColorHint="#999999"
+        android:editable="false"
+        />
+    <EditText
+        android:id="@+id/mdg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/register_edittext"
+        android:hint="Mã đánh giá:"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#222222"
+        android:textColorHint="#999999"
+        android:editable="false"
+        />
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Nhập tên giảng viên "
+        android:background="@drawable/register_edittext"
+
+        android:id="@+id/search"
+
+        />
+    <ListView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/listteacher"
+        android:textSize="16dip"
+        android:textStyle="bold">
+
+    </ListView>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Tiếp tục"
+        android:id="@+id/tiep_tuc"
+        android:background="@drawable/submit_button"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

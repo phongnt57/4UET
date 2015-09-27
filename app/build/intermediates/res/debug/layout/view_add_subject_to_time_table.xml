@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+   <!-- <TextView
+        android:text="ĐĂNG KÝ"
+
+        android:id="@+id/timetable"
+        android:layout_width="fill_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#85C75B"
+
+        />-->
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <customAutocompleteTextView.CustomAutoCompleteView
+            android:id="@+id/tenmon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_edittext"
+
+            android:hint="Tên môn"
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999" >
+            </customAutocompleteTextView.CustomAutoCompleteView>
+
+        <EditText
+            android:id="@+id/thu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_edittext"
+            android:hint="Thứ"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999"
+            android:editable="false"
+            />
+
+        <EditText
+            android:id="@+id/tiet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_edittext"
+            android:hint="Tiết"
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999"
+            android:editable="false"
+            />
+        <EditText
+            android:id="@+id/malop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_edittext"
+            android:hint="Mã lớp"
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999"
+            android:editable="false"
+            />
+
+        <EditText
+            android:id="@+id/phong"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/register_edittext"
+            android:hint="Phòng"
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999"
+            android:editable="false"
+            />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/them"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Thêm vào thời khóa biểu"
+            android:textColor="#ffffff"
+            android:background="@drawable/submit_button"/>
+
+        <!-- Link to Login Screen -->
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/uetface/app/src/main/res/layout/view_add_subject_to_time_table.xml -->

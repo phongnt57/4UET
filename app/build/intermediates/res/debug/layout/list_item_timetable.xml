@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:weightSum="1"
+
+    >
+    <TextView
+        android:id="@+id/address_class"
+        android:text="310-GD2"
+        android:layout_weight="0.25"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:background="#FF9A34"
+        android:textColor="#FFFFFF"
+        android:padding="1dp"
+        android:textSize="13.3333333333333sp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+
+        />
+
+    <TextView
+        android:text="Lập trình hướng đối tượng"
+        android:id="@+id/name_class"
+        android:layout_weight="0.5"
+        android:textColor="#FF9933"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:textSize="17.6666666666667sp"
+        android:layout_margin="5dp"
+         />
+
+    <TextView
+        android:text="13:10"
+        android:layout_weight="0.25"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_class"
+        android:textSize="13.3333333333333sp"
+        android:gravity="center"
+        android:padding="1dp"
+        android:layout_marginLeft="5dp"
+        android:background="#FF9A34"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        />
+
+
+
+
+
+
+</LinearLayout><!-- From: file:/E:/uetface/app/src/main/res/layout/list_item_timetable.xml -->

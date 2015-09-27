@@ -1,0 +1,61 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:id="@+id/instructions_view" >
+
+    <ListView
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_height="300dp"
+        android:id="@+id/dialoglist"
+        android:layout_width="match_parent"
+        android:focusable="true"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_button"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+            android:text="Xác nhận"
+            android:id="@+id/postsubmit"
+            />
+
+    <Button
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submit_button"
+        android:text="Quay lại"
+        android:textColor="#ffffff"
+        android:layout_weight="0.5"
+        android:layout_margin="5dp"
+        android:id="@+id/cancel"
+        />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    </LinearLayout>

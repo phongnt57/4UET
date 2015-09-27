@@ -1,0 +1,5 @@
+E:\uetface\app\build\intermediates\classes\debug
+E:\uetface\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-812c60e84a1298fd3b3e7af10423c60eb2317f68.jar
+E:\uetface\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-e7738b6197baf0143c5dc46c148ed73bfe07c66d.jar
+E:\uetface\app\build\intermediates\pre-dexed\debug\classes-f2b4629c2ad3b8768e0988671dfa495a4d74cada.jar
+E:\uetface\app\build\intermediates\pre-dexed\debug\classes-7707f09d40f6c18a072ec8549c69eaef9710b69e.jar

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="80dp"
+    android:background="#FF6767"
+    android:layout_marginTop="0dp"
+
+    android:orientation="horizontal"
+    android:weightSum="1"
+
+    android:padding="5dp">
+    <TextView
+        android:text="Nhung nguyen l Mac Lenin "
+
+        android:id="@+id/name_class"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:text="3-D3"
+        android:id="@+id/add_class"
+        android:layout_width="0dip"
+        android:textColor="#FF9933"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:padding="5dp"
+        android:background="#ffffff"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="3dp"
+
+
+        />
+</LinearLayout><!-- From: file:/E:/uetface/app/src/main/res/layout/list_item_subjectevaluate.xml -->

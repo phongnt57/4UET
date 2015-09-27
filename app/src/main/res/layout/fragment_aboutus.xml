@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+    <ImageView
+        android:id="@+id/wvHelp"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="#ED5E79"/>
+
+    <ImageView
+        android:id="@+id/txtTEMP"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:background="#F9CCAB"/>
+
+    <ImageView
+        android:id="@+id/txtTEMPx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="TextView"
+        android:background="#C3C3A0"/>
+
+    <ImageView
+        android:id="@+id/txtTEMPxc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:text="TextView"
+        android:background="#7FB29C"/>
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FEF5F6"
+           android:orientation="vertical"
+            android:text="About Us"
+            android:layout_margin = "40dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="About Us"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"
+               android:layout_gravity="center_horizontal"
+                android:id="@+id/about"
+
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

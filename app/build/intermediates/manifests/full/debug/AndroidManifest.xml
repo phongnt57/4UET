@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.codly.Uetface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    //USES_PERMISSION
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="io.codly.Uetface.controller.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Info"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Evaluate"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Timetable"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.About"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Home"
+            android:theme="@style/CustomActionBarTheme" >
+    >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Register"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.Login"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="viewpager.ViewPage"
+            android:parentActivityName="io.codly.Uetface.controller.Evaluate"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.AddEvaluate"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        //META_DATA
+        <activity
+            android:name="io.codly.Uetface.controller.Search"
+            android:label="@string/title_activity_search"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.TeacherInput"
+            android:label="@string/title_activity_teacher_input"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.AddSubjectToTimeTable"
+            android:label="@string/title_activity_add_subject_to_time_table"
+            android:parentActivityName="io.codly.Uetface.controller.Timetable"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name="io.codly.Uetface.controller.ScheduleExam"
+            android:label="LỊCH THI"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+    </application>
+
+</manifest>

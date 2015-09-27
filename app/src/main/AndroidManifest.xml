@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.codly.Uetface"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    //USES_PERMISSION
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+       >
+        <activity
+            android:name=".controller.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.Info"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".controller.Evaluate"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name=".controller.Timetable"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name=".controller.About"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".controller.Home"
+            android:theme="@style/CustomActionBarTheme" >
+    >
+        </activity>
+        <activity
+            android:name=".controller.Register"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".controller.Login"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="viewpager.ViewPage"
+            android:theme="@style/CustomActionBarTheme"
+            android:parentActivityName=".controller.Evaluate">
+        </activity>
+        <activity
+            android:name=".controller.AddEvaluate"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        //META_DATA
+        <activity
+            android:name=".controller.Search"
+            android:label="@string/title_activity_search"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".controller.TeacherInput"
+            android:label="@string/title_activity_teacher_input"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+        <activity
+            android:name=".controller.AddSubjectToTimeTable"
+            android:label="@string/title_activity_add_subject_to_time_table"
+            android:theme="@style/CustomActionBarTheme"
+            android:parentActivityName=".controller.Timetable">
+        </activity>
+        <activity
+            android:name=".controller.ScheduleExam"
+            android:theme="@style/CustomActionBarTheme"
+            android:label="LỊCH THI" >
+        </activity>
+    </application>
+
+</manifest>

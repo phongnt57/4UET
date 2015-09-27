@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyleableComponent">
+        <attr name="fontName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="FastWebView">
+        <attr name="url" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PercentageLayout">
+        <attr name="base_width" format="dimension" />
+        <attr name="base_height" format="dimension" />
+        <attr name="des_width" format="dimension" />
+        <attr name="des_height" format="dimension" />
+
+        <attr name="stretchTextsize" format="boolean" />
+        <attr name="scaleItSelf" format="boolean" />
+
+        <attr name="constraintRatio" format="boolean" />
+        <attr name="resizeByHeight" format="boolean" />
+        <attr name="stretchImage" format="boolean" />
+    </declare-styleable>
+</resources>

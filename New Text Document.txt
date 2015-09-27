@@ -1,0 +1,40 @@
+trinhnguyen.se@gmail.com
+<io.codly.components.PercentageLayout xmlns:tools="http://schemas.android.com/tools" android:id="@+id/root" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" app:constraintRatio="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_height="match_parent">
+
+    <io.codly.components.PercentageLayout android:layout_marginTop="0dp" android:id="@+id/group1" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="518dp" android:layout_marginLeft="0dp">
+        <io.codly.components.FitImageView android:layout_marginTop="0dp" android:id="@+id/bg" android:layout_width="320dp" android:src="@drawable/evaluate2_bg" android:layout_height="518dp" android:layout_marginLeft="0dp" /></io.codly.components.PercentageLayout>
+    <io.codly.components.FitImageView android:layout_marginTop="0dp" android:id="@+id/navBar1" android:layout_width="319dp" android:src="@drawable/evaluate2_navbar1_image" android:layout_height="60dp" android:layout_marginLeft="0dp"
+    />
+    <io.codly.components.PercentageLayout android:background="@drawable/evaluate2_class_background" android:layout_marginTop="60dp" android:id="@+id/layout_Class" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="70dp" android:layout_marginLeft="0dp"
+    />
+    <io.codly.components.StyleableTextView android:text="L?p trình hu?ng d?i tu?ng" android:layout_marginTop="85dp" android:id="@+id/subject_name" android:layout_width="254.1dp" app:fontName="SegoeUI" android:textColor="#FFFFFF" android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp" android:textSize="20sp" android:gravity="left" />
+    <io.codly.components.StyleableTextView android:text="309-GĞ2" android:layout_marginTop="89dp" android:id="@+id/subject_address" android:layout_width="51.7dp" app:fontName="iCielMijas-Ultra" android:textColor="#FF9933" android:layout_height="wrap_content"
+    android:layout_marginLeft="255dp" android:textSize="13.3333333333333sp" android:gravity="left" />
+    <io.codly.components.PercentageLayout android:background="@drawable/evaluate2_question1_background" android:layout_marginTop="130dp" android:id="@+id/question1" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="70dp" android:layout_marginLeft="0dp"
+    />
+    <io.codly.components.StyleableTextView android:text="1. Gi?ng du?ng dáp ?ng nhu c?u c?a môn h?c?" android:layout_marginTop="133dp" android:id="@+id/qs1" android:layout_width="339.9dp" app:fontName="iCielMijas-Ultra" android:textColor="#FFFFFF" android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp" android:textSize="20sp" android:gravity="left" />
+    <SeekBar android:progress="50" android:layout_marginTop="184dp" android:id="@+id/slider1" android:progressDrawable="@drawable/slider1" android:layout_width="300dp" android:thumb="@drawable/evaluate2_slider1_thumb" android:layout_height="19dp" android:layout_marginLeft="9dp"
+    />
+    <io.codly.components.PercentageLayout android:background="@drawable/evaluate2_question2_background" android:layout_marginTop="201dp" android:id="@+id/question2" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="70dp" android:layout_marginLeft="0dp"
+    />
+    <SeekBar android:progress="50" android:layout_marginTop="255dp" android:id="@+id/slider2" android:progressDrawable="@drawable/slider2" android:layout_width="300dp" android:thumb="@drawable/evaluate2_slider2_thumb" android:layout_height="18dp" android:layout_marginLeft="9dp"
+    />
+    <io.codly.components.PercentageLayout android:background="@drawable/evaluate2_question3_background" android:layout_marginTop="272dp" android:id="@+id/question3" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="70dp" android:layout_marginLeft="0dp"
+    />
+    <io.codly.components.StyleableTextView android:text="2. Các thi?t b? t?i gi?ng du?ng dáp ?ng nhu c?u gi?ng d?y và h?c t?p?" android:layout_marginTop="204dp" android:id="@+id/qs2" android:layout_width="316.8dp" app:fontName="iCielMijas-Ultra" android:textColor="#FFFFFF"
+    android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:textSize="20sp" android:gravity="left" />
+    <io.codly.components.StyleableTextView android:text="3. B?n du?c h? tr? k?p th?i trong quá trình h?c môn này?" android:layout_marginTop="274dp" android:id="@+id/qs3" android:layout_width="308dp" app:fontName="iCielMijas-Ultra" android:textColor="#FFFFFF"
+    android:layout_height="wrap_content" android:layout_marginLeft="19dp" android:textSize="20sp" android:gravity="left" />
+    <SeekBar android:progress="50" android:layout_marginTop="325dp" android:id="@+id/slider3" android:progressDrawable="@drawable/slider3" android:layout_width="300dp" android:thumb="@drawable/evaluate2_slider3_thumb" android:layout_height="19dp" android:layout_marginLeft="9dp"
+    />
+    <io.codly.components.PercentageLayout android:background="@drawable/evaluate2_question4_background" android:layout_marginTop="342dp" android:id="@+id/question4" android:layout_width="320dp" app:constraintRatio="true" android:layout_height="70dp" android:layout_marginLeft="0dp"
+    />
+    <io.codly.components.StyleableTextView android:text="4. M?c tiêu c?a môn h?c nêu rõ ki?n th?c và ki nang ngu?i h?c c?n d?t du?c?" android:layout_marginTop="345dp" android:id="@+id/qs4" android:layout_width="338.8dp" app:fontName="iCielMijas-Ultra"
+    android:textColor="#FFFFFF" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:textSize="20sp" android:gravity="left" />
+    <SeekBar android:progress="50" android:layout_marginTop="396dp" android:id="@+id/slider4" android:progressDrawable="@drawable/slider4" android:layout_width="300dp" android:thumb="@drawable/evaluate2_slider4_thumb" android:layout_height="19dp" android:layout_marginLeft="9dp"
+    />
+    <io.codly.components.StyleableTextView android:text="ĞÁNH GIÁ MÔN H?C" android:layout_marginTop="27dp" android:id="@+id/evaluate2" android:layout_width="196.9dp" app:fontName="iCielPanton-Light" android:textColor="#FFFFFF" android:layout_height="wrap_content"
+    android:layout_marginLeft="71dp" android:textSize="20sp" android:gravity="left" /></io.codly.components.PercentageLayout>

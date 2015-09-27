@@ -1,0 +1,111 @@
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:constraintRatio="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <ImageButton
+        android:id="@+id/timetable_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_timetable_normal"
+
+        android:background="@android:color/transparent"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời khóa biểu"
+        android:layout_below="@+id/timetable_button"
+        android:layout_alignLeft="@+id/timetable_button"
+        android:layout_alignRight="@+id/timetable_button"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/evaluate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_evaluate_normal"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/timetable_button"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <ImageButton
+        android:id="@+id/friend_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_friend_normal"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/evaluate_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lịch thi"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/friend_button"
+        android:layout_alignRight="@+id/friend_button"
+        android:gravity="center"
+        android:id="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_chat_normal"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trò chuyện"
+        android:layout_below="@+id/chat_button"
+        android:layout_alignRight="@+id/chat_button"
+        android:layout_alignLeft="@+id/chat_button"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3" />
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_info_normal"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/search_button"
+        android:layout_alignRight="@+id/search_button"
+        android:id="@+id/textView5" />
+
+
+
+
+
+</RelativeLayout>
+<!-- From: file:/E:/uetface/app/src/main/res/layout/home_fragment_sliding.xml -->
